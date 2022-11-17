@@ -1,0 +1,50 @@
+#logo{
+    position: fixed;
+    top: 2rem;
+    left: var(--stdMargin);
+    
+    width: 70px;
+}
+
+#animeTitle{
+    grid-column-end:-1;
+    color: rgba(0, 0, 0, 0.694);
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 3rem;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: right;
+    margin: auto 0;
+    position: relative;
+    top: 20%
+}
+
+#animeTitle, #imageSection{
+    grid-row:1/2;
+}
+
+
+
+<button id="CTA" onclick="window.location.href='https://oneplus.in'">
+          
+
+
+
+#imageSection{
+    height: 100vh;
+    grid-column: 5 / -1;
+    background-image:linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("532559.jpg");
+    background-size: cover;
+    /*Poisitioning*/
+    position: relative;
+    right: calc(-1 * var(--stdMargin));
+
+}
+
+/*Poisitioning*/
+    position: relative;
+    right: calc(-1 * var(--stdMargin));
+
+
+<img id="logo" src="logo.png" alt="Anime Tracker Logo" />
